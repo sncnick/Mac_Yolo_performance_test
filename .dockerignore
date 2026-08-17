@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+data/
+models/
+*.mp4
+construction.pt
+yolo11m.pt
+yolo11l.pt
+yolo11n.pt
+yolo11s.pt
+yolo11n-pose.pt
+yolo11s-pose.pt

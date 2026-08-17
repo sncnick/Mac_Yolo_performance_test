@@ -1,0 +1,15 @@
+# MediaMTX config — allow publish/read on all paths without auth.
+logLevel: info
+authMethod: internal
+authInternalUsers:
+  - user: any
+    pass:
+    permissions:
+      - action: publish
+      - action: read
+      - action: playback
+
+paths:
+  # Match any path not explicitly configured (accepts RTSP publishers + readers)
+  all_others:
+    source: publisher

@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Secrets / certs
+auto.crt
+auto.key
+*.pem
+.env
+
+# Local runtime data (may contain stream credentials)
+data/
+
+# Uploaded / downloaded models
+models/
+*.mp4
+
+# Official YOLO weights (auto-download on first use)
+construction.pt
+yolo11m.pt
+yolo11l.pt
+yolo11n.pt
+yolo11s.pt
+yolo11n-pose.pt
+yolo11s-pose.pt
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
